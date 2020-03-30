@@ -28,7 +28,7 @@ twitter_username: Dian71772630
 github_username: zhoudian64
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
