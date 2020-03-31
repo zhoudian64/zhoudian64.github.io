@@ -11,7 +11,16 @@ encrypted_text: true
 permalink: /
 ---
 
-# zhoudian64.强人工智能.com
+# zhoudian64.强人工智能.com (NSFW)
+
+WARNING!!! whole site **NSFW**.
+
+## explain for some of category
+
+- Diary: where I practice my English (full of dirty words)
+
+Plz correct my silly mistakes by opening issues @ this repo.
+
 
 ## Features
 you may got a sub-domain by sending message to the QQ number bellow

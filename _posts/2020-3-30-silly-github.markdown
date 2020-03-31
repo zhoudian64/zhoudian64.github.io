@@ -1,7 +1,7 @@
 ---
 title: Silly Github can't decode UTF-8 mail address
 layout: post
-category: Sample
+category: Diary
 date: 2020-3-30
 ---
 
