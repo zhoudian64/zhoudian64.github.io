@@ -19,7 +19,7 @@ Also, thought as _O(1)_ indexing.
 So those Low-level language always keep them simple.
 Just don't need that map and easily got it's element by 
 $$
-base-address+offset
+BaseAddress+offset
 $$
 
 ## Efficiency
@@ -30,3 +30,12 @@ And waste **0** space.
 _index_ take _O(1)_ time.
 And not able to _insert_/_delete_ element.
 
+## 扩展Dope vectors
+
+有意识地的是在翻阅Wiki时发现好像中文互联网上没有关于Dope Vector的有关翻译，而对于array's descriptor的东西似乎也只有Java部分的,
+大概看了一下，其实就就是添加了对于一个Array的Metadata（元数据），从数组元素的元素大小，到元素的数量。
+大致可以用作：
+- 解决一些Buffer缓冲区攻击（没法越界了）
+- 各种数组切片
+- 颠倒元素索引
+代价是空间复杂度加一个常数。
