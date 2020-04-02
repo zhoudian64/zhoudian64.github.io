@@ -32,7 +32,7 @@ And not able to _insert_/_delete_ element.
 
 ## 扩展Dope vectors
 
-有意识地的是在翻阅Wiki时发现好像中文互联网上没有关于Dope Vector的有关翻译，而对于array's descriptor的东西似乎也只有Java部分的,
+有意思地的是在翻阅Wiki时发现好像中文互联网上没有关于Dope Vector的有关翻译，而对于array's descriptor的东西似乎也只有Java部分的,
 大概看了一下，其实就就是添加了对于一个Array的Metadata（元数据），从数组元素的元素大小，到元素的数量。
 大致可以用作：
 - 解决一些Buffer缓冲区攻击（没法越界了）
