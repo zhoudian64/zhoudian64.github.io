@@ -2,6 +2,10 @@
 
 a silly blog
 
+link: https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/
+You may need a really NICE network to access.
+From DNS, ISP, Web Browser... You may even can't access behind your strange VPN.
+
 ## commit info
 
 | Commit type    | Emoji            |
