@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-23T21:31:58+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">zhoudian64.强人工智能.com</title><subtitle>A silly blog for me.</subtitle><entry><title type="html">about SHU CES</title><link href="http://localhost:4000/about-SHU/" rel="alternate" type="text/html" title="about SHU CES" /><published>2020-07-23T00:00:00+08:00</published><updated>2020-07-23T00:00:00+08:00</updated><id>http://localhost:4000/about-SHU</id><content type="html" xml:base="http://localhost:4000/about-SHU/">&lt;p&gt;It’s a horrible world…&lt;/p&gt;
+
+&lt;p&gt;Commonly, Students need about 8 months or more to prepare for their
+master degree entrance exam. Or They may need 3 months or even longer
+to have their internship in various companies.&lt;/p&gt;
+
+&lt;p&gt;But in this HORRIBLE college. You have got a lot of just Java or .Net
+Web to write to build those silly Websites. And if you want to enjoy
+you time have a salary or hone your sword yourself in some company,
+you need to both attend all classes, which is all not related with
+projects.&lt;/p&gt;
+
+&lt;p&gt;What i tried to express is, just run. PLZ don’t come CES department,
+you’ve got neither chance to get your master degree tickets, or a
+good job here. I’ve heard a lot of guys in new media Department got
+employed by Alibaba or ByteDance.&lt;/p&gt;
+
+&lt;p&gt;Here you won’t learn anything in following list:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;English Express
+    &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;As you can see in this article, my English skill is ridiculous.
+I don't know how to improve it. Maybe you should try to get into some
+foreign companies. And communicate with your mentor.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Code during interview
+    &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Only if you join ACM team, you may get this skill. It's very
+important. Since Interviewer will give you one round after another.
+If you hate SJ, maybe your can teach yourself @ https://leetcode.com
+English site maybe better( 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do Robust Code
+Sincerely, 99.99%+ your code in your development experience
+in the first three years should be called script. No matter what
+language you are using. They turn to become a “Process” only once.
+You hardly can find out all kinds or bugs(or failure of design).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;…
+emmm I will fill here some day after those silly CRUD projects.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Diary" /><summary type="html">It’s a horrible world…</summary></entry><entry><title type="html">DS - Array</title><link href="http://localhost:4000/DS-Array/" rel="alternate" type="text/html" title="DS - Array" /><published>2020-04-02T00:00:00+08:00</published><updated>2020-04-02T00:00:00+08:00</updated><id>http://localhost:4000/DS-Array</id><content type="html" xml:base="http://localhost:4000/DS-Array/">&lt;h1 id=&quot;ds---array&quot;&gt;DS - Array&lt;/h1&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;introduction&lt;/h2&gt;
+
+&lt;p&gt;From wiki :: is a data structure consisting of collection of elements, identified by at least one array index or key.
+And the position can be &lt;strong&gt;computed&lt;/strong&gt; from its index tuple by a mathematical formula.
+Simplest, linear array all called one-dimensional array.&lt;/p&gt;
+
+&lt;p&gt;So, actually, they don’t need to be stored at contiguous memory locations.
+Only need to be contiguous after the Map-function, which is mentioned above as ‘computed’.
+Also, thought as &lt;em&gt;O(1)&lt;/em&gt; indexing.
+So those Low-level language always keep them simple.
+Just don’t need that map and easily got it’s element by 
+&lt;script type=&quot;math/tex&quot;&gt;BaseAddress+offset&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;efficiency&quot;&gt;Efficiency&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;store&lt;/em&gt; and &lt;em&gt;select&lt;/em&gt; take &lt;em&gt;O(n)&lt;/em&gt; space.
+And waste &lt;strong&gt;0&lt;/strong&gt; space.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;index&lt;/em&gt; take &lt;em&gt;O(1)&lt;/em&gt; time.
+And not able to &lt;em&gt;insert&lt;/em&gt;/&lt;em&gt;delete&lt;/em&gt; element.&lt;/p&gt;
+
+&lt;h2 id=&quot;扩展dope-vectors&quot;&gt;扩展Dope vectors&lt;/h2&gt;
+
+&lt;p&gt;有意思地的是在翻阅Wiki时发现好像中文互联网上没有关于Dope Vector的有关翻译，而对于array’s descriptor的东西似乎也只有Java部分的,
+大概看了一下，其实就就是添加了对于一个Array的Metadata（元数据），从数组元素的元素大小，到元素的数量。
+大致可以用作：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;解决一些Buffer缓冲区攻击（没法越界了）&lt;/li&gt;
+  &lt;li&gt;各种数组切片&lt;/li&gt;
+  &lt;li&gt;颠倒元素索引
+代价是空间复杂度加一个常数。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="DataStructure" /><summary type="html">DS - Array</summary></entry><entry><title type="html">conda &amp;amp; school life at home</title><link href="http://localhost:4000/about-conda/" rel="alternate" type="text/html" title="conda &amp; school life at home" /><published>2020-03-31T00:00:00+08:00</published><updated>2020-03-31T00:00:00+08:00</updated><id>http://localhost:4000/about-conda</id><content type="html" xml:base="http://localhost:4000/about-conda/">&lt;h2 id=&quot;conda&quot;&gt;conda&lt;/h2&gt;
+
+&lt;p&gt;Today I try to install and use pytorch with CUDA on my Windows 10 machine.&lt;/p&gt;
+
+&lt;p&gt;It’s totally a joke, may be.&lt;/p&gt;
+
+&lt;p&gt;Both Win’s dim and fuzzy font (may be caused by HDMI?) annoys me a lot.&lt;/p&gt;
+
+&lt;p&gt;After I spend about 4 hours on QuEST (Quantum computing simulationg frame work) on GPU,
+&lt;del&gt;emmm&lt;/del&gt; it seems all errors actually comes from Nvidia’s arrogant.
+It not only didn’t want to do some actual open source work,
+but also didn’t willing to provide LTS compatible software to individual buyers.&lt;/p&gt;
+
+&lt;p&gt;F**k, my horrible written English.&lt;/p&gt;
+
+&lt;h2 id=&quot;school-life&quot;&gt;school life&lt;/h2&gt;
+
+&lt;p&gt;My X86 server and monitor are trapped in my dorm room.&lt;/p&gt;
+
+&lt;p&gt;F**k those administration staff,
+they even haven’t filled in a single form after spending a whole day,
+which is applying for entering the dormitory.&lt;/p&gt;</content><author><name></name></author><category term="Diary" /><summary type="html">conda</summary></entry><entry><title type="html">Silly Github can’t decode UTF-8 mail address</title><link href="http://localhost:4000/silly-github/" rel="alternate" type="text/html" title="Silly Github can't decode UTF-8 mail address" /><published>2020-03-30T00:00:00+08:00</published><updated>2020-03-30T00:00:00+08:00</updated><id>http://localhost:4000/silly-github</id><content type="html" xml:base="http://localhost:4000/silly-github/">&lt;h2 id=&quot;silly-github&quot;&gt;silly github!&lt;/h2&gt;
+
+&lt;p&gt;Y I can’t use my @强人工智能.com mail address?&lt;/p&gt;</content><author><name></name></author><category term="Diary" /><summary type="html">silly github!</summary></entry></feed>
