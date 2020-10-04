@@ -16,13 +16,13 @@
     
   </title>
   <!-- icon -->
-  <link href="http://localhost:4000/assets/img/favicon.ico?" rel="shortcut icon bookmark" type="image/x-icon" />
+  <link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/assets/img/favicon.ico?" rel="shortcut icon bookmark" type="image/x-icon" />
   <!-- main stylesheet -->
-  <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" type="text/css" />
+  <link rel="stylesheet" href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/assets/css/main.css" type="text/css" />
   <!-- fa 5.9.0 -->
-  <link rel="stylesheet" href="http://localhost:4000/assets/css/fa.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/assets/css/fa.min.css" type="text/css" />
   <!-- rouge theme-->
-  <link rel="stylesheet" href="http://localhost:4000/assets/css/rouge-bg.css" />
+  <link rel="stylesheet" href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/assets/css/rouge-bg.css" />
   <!-- mathjax 2.7.5 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
   </head>
@@ -63,62 +63,62 @@
         <ul>
             <!-- left header -->
             <li
-                class="li_left">
+                    class="li_left">
                 <!-- home -->
                 
-                    <a class="header_btn" href="http://localhost:4000">
-                        <i class="fa fa-home">
-                            
-                                <p class="btn_text">Home</p>
-                            
-                        </i>
-                    </a>
+                <a class="header_btn" href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com">
+                    <i class="fa fa-home">
+                        
+                        <p class="btn_text">Home</p>
+                        
+                    </i>
+                </a>
                 
                 <!-- email -->
                 
-                    <a class="header_btn" href="mailto://zhou_dian9@163.com">
-                        <i class="fa fa-envelope-square">
-                            
-                                <p class="btn_text">Email</p>
-                            
-                        </i>
-                    </a>
+                <a class="header_btn" href="mailto://zhou_dian9@163.com">
+                    <i class="fa fa-envelope-square">
+                        
+                        <p class="btn_text">Email</p>
+                        
+                    </i>
+                </a>
                 
                 <!-- github -->
                 
-                    <a class="header_btn" href="https://github.com/zhoudian64">
-                        <i class="fa fa-github">
-                            
-                                <p class="btn_text">Github</p>
-                            
-                        </i>
-                    </a>
+                <a class="header_btn" href="https://github.com/zhoudian64">
+                    <i class="fa fa-github">
+                        
+                        <p class="btn_text">Github</p>
+                        
+                    </i>
+                </a>
                 
                 <!-- maximize -->
                 
-                    <a class="header_btn" id="mxmz_btn" onclick="toggle_maximize()">
-                        <i class="fa fa-window-maximize">
-                            
-                                <p class="btn_text" id="mxmz_text">Maximize</p>
-                            
-                        </i>
-                    </a>
+                <a class="header_btn" id="mxmz_btn" onclick="toggle_maximize()">
+                    <i class="fa fa-window-maximize">
+                        
+                        <p class="btn_text" id="mxmz_text">Maximize</p>
+                        
+                    </i>
+                </a>
                 
                 <!-- access token -->
                 
-                    <a class="header_btn" id="acs_btn" onclick="apply_token()">
-                        <i class="fa fa-key">
-                            
-                                <p class="btn_text">Token</p>
-                            
-                        </i>
-                    </a>
-                    <textarea class="access_token" cols="8" id="acs_tkn" rows="1"></textarea>
+                <a class="header_btn" id="acs_btn" onclick="apply_token()">
+                    <i class="fa fa-key">
+                        
+                        <p class="btn_text">Token</p>
+                        
+                    </i>
+                </a>
+                <textarea class="access_token" cols="8" id="acs_tkn" rows="1"></textarea>
                 
             </li>
             <!-- right header -->
             <span
-                class="span_right">
+                    class="span_right">
                 <!-- popup table of content -->
                 
                     <a class="title">zhoudian64.强人工智能.com</a>
@@ -138,67 +138,71 @@
 <!-- toggle maximize -->
 
 <script>
-  var ctner_state = 0;
-  var ctner = document.getElementById("ctner");
-  function toggle_maximize() {
-    if (ctner_state == 0) {
-      ctner.style.width = "100%";
-      ctner.style.height = "100%";
-      ctner.style.top = "0";
-      ctner.style.maxWidth = "100%";
-      if (document.getElementById("mxmz_text")) {
-        document.getElementById("mxmz_text").innerHTML = "Restore";
-      }
-      ctner_state = 1;
-    } else if (ctner_state == 1) {
-      ctner.style.width = "84%";
-      ctner.style.height = "97%";
-      ctner.style.top = "2%";
-      ctner.style.maxWidth = "1240px";
-      if (document.getElementById("mxmz_text")) {
-        document.getElementById("mxmz_text").innerHTML = "Maximize";
-      }
-      ctner_state = 0;
+    var ctner_state = 0;
+    var ctner = document.getElementById("ctner");
+
+    function toggle_maximize() {
+        if (ctner_state == 0) {
+            ctner.style.width = "100%";
+            ctner.style.height = "100%";
+            ctner.style.top = "0";
+            ctner.style.maxWidth = "100%";
+            if (document.getElementById("mxmz_text")) {
+                document.getElementById("mxmz_text").innerHTML = "Restore";
+            }
+            ctner_state = 1;
+        } else if (ctner_state == 1) {
+            ctner.style.width = "84%";
+            ctner.style.height = "97%";
+            ctner.style.top = "2%";
+            ctner.style.maxWidth = "1240px";
+            if (document.getElementById("mxmz_text")) {
+                document.getElementById("mxmz_text").innerHTML = "Maximize";
+            }
+            ctner_state = 0;
+        }
     }
-  }
 </script>
 
 <!-- encrypt and decrypt -->
 
-    <script src="http://localhost:4000/assets/js/sjcl.js" async></script>
-    <script>
-  function decrypt_all(pwd, class_name) {
-    var elem_clct = document.getElementsByClassName(class_name);
-    if (elem_clct.length == 0) {
-      console.log("No texts to decrypt!");
-      return false;
+<script src="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/assets/js/sjcl.js" async></script>
+<script>
+    function decrypt_all(pwd, class_name) {
+        const elem_clct = document.getElementsByClassName(class_name);
+        if (elem_clct.length === 0) {
+            console.log("No texts to decrypt!");
+            return false;
+        }
+        for (let acc = 0; acc < elem_clct.length; acc++) {
+            let txt = "";
+            const encrypted = elem_clct[acc].id;
+            const ct =
+                '{"iv":"' +
+                encrypted.substring(0, 24) +
+                '",salt:"","ct":"' +
+                encrypted.substring(22) +
+                '"}';
+            try {
+                txt = sjcl.json.decrypt(pwd, ct);
+                txt = '<a href="' + txt + '">' + txt + '</a>'
+            } catch (e) {
+                // alert("Invalid Access Token!");
+                // return;
+            }
+            elem_clct[acc].innerHTML = txt;
+        }
+        return true;
     }
-    for (acc = 0; acc < elem_clct.length; acc++) {
-      var encrypted = elem_clct[acc].id;
-      var ct =
-        '{"iv":"' +
-        encrypted.substring(0, 22) +
-        '==",salt:"","ct":"' +
-        encrypted.substring(22) +
-        '"}';
-      console.log(ct)
-      try {
-        var txt = sjcl.json.decrypt(pwd, ct);
-      } catch (e) {
-        alert("Invalid Access Token!");
-        return;
-      }
-      elem_clct[acc].innerHTML = txt;
+
+    function apply_token() {
+        var tkn = document.getElementById("acs_tkn");
+        if (decrypt_all(tkn.value, "encrypted")) {
+            // tkn.style.display = "none";
+            // document.getElementById("acs_btn").style.display = "none";
+            console.log("And more?");
+        }
     }
-    return true;
-  }
-  function apply_token() {
-    var tkn = document.getElementById("acs_tkn");
-    if (decrypt_all(tkn.value, "encrypted")) {
-      tkn.style.display = "none";
-      document.getElementById("acs_btn").style.display = "none";
-    }
-  }
 </script>
 
 
@@ -216,10 +220,20 @@
 
 <p>Plz correct my silly mistakes by opening issues @ this repo.</p>
 
+<h2 id="web-links">Web links</h2>
+
+<p>send me email to get access to these Webs.</p>
+
+<p class="encrypted" id="NRn+KLWAYlBS7LEYie3PTg==id55cgZxt1KfXYxX6KnGSBazdDA7AgzH7ukLKRIQBpngQzhNLQMfcmWAgkqPqE2GVa378cVj">
+权限不足!
+</p>
+
 <h2 id="features">Features</h2>
 <p>you may got a sub-domain by sending message to the QQ number bellow</p>
 
-<p class="encrypted" id="16cDmB25op1kP/0HhvecEgJKv3aVSYcjjSM20DOU6szie+==">权限不足！</p>
+<p class="encrypted" id="OF9mAwDYze3HVFda/QNvDA==XBcfrAfvH3ogPUOcc/Pow+c9">
+权限不足！
+</p>
 
 <p>token may be found in my silly repo.</p>
 
@@ -241,25 +255,25 @@
     <tbody>
         
         </tr>
-        <td class="td_title"><a href="http://localhost:4000/about-SHU/">about SHU CES</a></td>
+        <td class="td_title"><a href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-SHU/">about SHU CES</a></td>
         <td class="td_date">Jul 23, 20</td>
         <td class="td_category">Diary</td>
         </tr>
         
         </tr>
-        <td class="td_title"><a href="http://localhost:4000/DS-Array/">DS - Array</a></td>
+        <td class="td_title"><a href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/DS-Array/">DS - Array</a></td>
         <td class="td_date">Apr 02, 20</td>
         <td class="td_category">DataStructure</td>
         </tr>
         
         </tr>
-        <td class="td_title"><a href="http://localhost:4000/about-conda/">conda & school life at home</a></td>
+        <td class="td_title"><a href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-conda/">conda & school life at home</a></td>
         <td class="td_date">Mar 31, 20</td>
         <td class="td_category">Diary</td>
         </tr>
         
         </tr>
-        <td class="td_title"><a href="http://localhost:4000/silly-github/">Silly Github can't decode UTF-8 mail address</a></td>
+        <td class="td_title"><a href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/silly-github/">Silly Github can't decode UTF-8 mail address</a></td>
         <td class="td_date">Mar 30, 20</td>
         <td class="td_category">Diary</td>
         </tr>
