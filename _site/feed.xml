@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/" rel="alternate" type="text/html" /><updated>2020-10-04T19:06:48+08:00</updated><id>https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/feed.xml</id><title type="html">zhoudian64.强人工智能.com</title><subtitle>A silly blog for me.</subtitle><entry><title type="html">about SHU CES</title><link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-SHU/" rel="alternate" type="text/html" title="about SHU CES" /><published>2020-07-23T00:00:00+08:00</published><updated>2020-07-23T00:00:00+08:00</updated><id>https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-SHU</id><content type="html" xml:base="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-SHU/">&lt;p&gt;It’s a horrible world…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/" rel="alternate" type="text/html" /><updated>2020-10-05T15:26:56+08:00</updated><id>https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/feed.xml</id><title type="html">zhoudian64.强人工智能.com</title><subtitle>A silly blog for me.</subtitle><entry><title type="html">about SHU CES</title><link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-SHU/" rel="alternate" type="text/html" title="about SHU CES" /><published>2020-07-23T00:00:00+08:00</published><updated>2020-07-23T00:00:00+08:00</updated><id>https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-SHU</id><content type="html" xml:base="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-SHU/">&lt;p&gt;It’s a horrible world…&lt;/p&gt;
 
 &lt;p&gt;Commonly, Students need about 8 months or more to prepare for their
 master degree entrance exam. Or They may need 3 months or even longer
@@ -52,7 +52,7 @@ Only need to be contiguous after the Map-function, which is mentioned above as �
 Also, thought as &lt;em&gt;O(1)&lt;/em&gt; indexing.
 So those Low-level language always keep them simple.
 Just don’t need that map and easily got it’s element by 
-&lt;script type=&quot;math/tex&quot;&gt;BaseAddress+offset&lt;/script&gt;&lt;/p&gt;
+\(BaseAddress+offset\)&lt;/p&gt;
 
 &lt;h2 id=&quot;efficiency&quot;&gt;Efficiency&lt;/h2&gt;
 
@@ -72,7 +72,7 @@ And not able to &lt;em&gt;insert&lt;/em&gt;/&lt;em&gt;delete&lt;/em&gt; element.
   &lt;li&gt;各种数组切片&lt;/li&gt;
   &lt;li&gt;颠倒元素索引
 代价是空间复杂度加一个常数。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="DataStructure" /><summary type="html">DS - Array</summary></entry><entry><title type="html">conda &amp;amp; school life at home</title><link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-conda/" rel="alternate" type="text/html" title="conda &amp; school life at home" /><published>2020-03-31T00:00:00+08:00</published><updated>2020-03-31T00:00:00+08:00</updated><id>https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-conda</id><content type="html" xml:base="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-conda/">&lt;h2 id=&quot;conda&quot;&gt;conda&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="DataStructure" /><summary type="html">DS - Array</summary></entry><entry><title type="html">conda &amp;amp; school life at home</title><link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-conda/" rel="alternate" type="text/html" title="conda &amp;amp; school life at home" /><published>2020-03-31T00:00:00+08:00</published><updated>2020-03-31T00:00:00+08:00</updated><id>https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-conda</id><content type="html" xml:base="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/about-conda/">&lt;h2 id=&quot;conda&quot;&gt;conda&lt;/h2&gt;
 
 &lt;p&gt;Today I try to install and use pytorch with CUDA on my Windows 10 machine.&lt;/p&gt;
 
@@ -93,6 +93,6 @@ but also didn’t willing to provide LTS compatible software to individual buyer
 
 &lt;p&gt;F**k those administration staff,
 they even haven’t filled in a single form after spending a whole day,
-which is applying for entering the dormitory.&lt;/p&gt;</content><author><name></name></author><category term="Diary" /><summary type="html">conda</summary></entry><entry><title type="html">Silly Github can’t decode UTF-8 mail address</title><link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/silly-github/" rel="alternate" type="text/html" title="Silly Github can't decode UTF-8 mail address" /><published>2020-03-30T00:00:00+08:00</published><updated>2020-03-30T00:00:00+08:00</updated><id>https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/silly-github</id><content type="html" xml:base="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/silly-github/">&lt;h2 id=&quot;silly-github&quot;&gt;silly github!&lt;/h2&gt;
+which is applying for entering the dormitory.&lt;/p&gt;</content><author><name></name></author><category term="Diary" /><summary type="html">conda</summary></entry><entry><title type="html">Silly Github can’t decode UTF-8 mail address</title><link href="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/silly-github/" rel="alternate" type="text/html" title="Silly Github can’t decode UTF-8 mail address" /><published>2020-03-30T00:00:00+08:00</published><updated>2020-03-30T00:00:00+08:00</updated><id>https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/silly-github</id><content type="html" xml:base="https://zhoudian64.xn--gmqr38ag3ag6puy9a.com/silly-github/">&lt;h2 id=&quot;silly-github&quot;&gt;silly github!&lt;/h2&gt;
 
 &lt;p&gt;Y I can’t use my @强人工智能.com mail address?&lt;/p&gt;</content><author><name></name></author><category term="Diary" /><summary type="html">silly github!</summary></entry></feed>
